@@ -6,7 +6,7 @@
 /*   By: hichikaw <hichikaw@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:43:16 by hichikaw          #+#    #+#             */
-/*   Updated: 2024/11/25 20:48:43 by hichikaw         ###   ########.fr       */
+/*   Updated: 2024/12/12 01:44:17 by hichikaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdarg.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <limits.h>
 
 int					ft_printf(const char *format, ...);
 int					ft_putchar_fd(char c, int fd);

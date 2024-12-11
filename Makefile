@@ -10,7 +10,6 @@ all: $(NAME)
 
 $(NAME): $(OBJ)
 	$(AR) $(NAME) $(OBJ)
-	ranlib $(NAME)
 
 %.o: %.c libftprintf.h
 	$(CC) $(CFLAGS) -c $< -o $@

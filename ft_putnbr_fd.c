@@ -6,7 +6,7 @@
 /*   By: hichikaw <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:25:32 by hichikaw          #+#    #+#             */
-/*   Updated: 2024/11/25 15:05:39 by hichikaw         ###   ########.fr       */
+/*   Updated: 2024/12/12 01:40:54 by hichikaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	ft_putnbr_fd(int n, int fd)
 		return (ft_putstr_fd("-2147483648", fd));
 	if (n < 0)
 	{
-		len += ft_putchar_fd('-', fd);
+		len = ft_putchar_fd('-', fd);
 		n = -n;
 	}
 	if (n >= 10)
