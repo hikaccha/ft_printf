@@ -6,7 +6,7 @@
 /*   By: hichikaw <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/30 03:30:46 by hichikaw          #+#    #+#             */
-/*   Updated: 2024/12/12 06:49:53 by hichikaw         ###   ########.fr       */
+/*   Updated: 2025/01/23 14:17:42 by hichikaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static	int	ft_putptr_recursive(unsigned long address, int fd)
 		if (result == -1)
 			return (-1);
 		len += result;
-	}	
+	}
 	result = ft_putchar_fd("0123456789abcdef"[address % 16], fd);
 	if (result == -1)
 		return (-1);
